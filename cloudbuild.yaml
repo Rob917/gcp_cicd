@@ -1,0 +1,8 @@
+steps:
+  - name: python
+    image: python:3.9
+    entrypoint: python
+    args: [python3, hello.py]
+
+options:
+  logging: CLOUD_LOGGING_ONLY
